@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="image">
+        <img src="../static/images/weather.JPG" alt="" height="796px" width="100%">
+    </div>
+    <section class="section1">
+        <div class="text">
+            <h1>YOLO Weathers</h1>
+        </div>
+        <nav>
+            <a href="{{url_for('home')}}" class="home">Home</a>
+            <a href="#">Forecast</a>
+            <a href="#">Safety</a>
+            <a href="#">About</a>
+            <a href="#">Help</a>
+        </nav>
+        <div class="follow">
+            <a href="#" class="fol">Contact Us</a>
+        </div>
+        <div class="para">
+            <h1 class="para1">Explore the World's Best <br> <span class="shadow"><b>Weather Api</b></span><br> for Free</h1>
+        </div>
+        <div class="awesome">
+            <p class="awesome1">Awesome Weather for a Good Day <br> Drop your Location here</p>
+        </div>
+        <form method="post" action="">
+            <input type="text" placeholder="Enter Your City Name" class="city" name="city">
+            <a href="{{url_for('weather')}}"><input type="submit" class="submit"></a>
+            <!-- <input type="submit" class="submit"> -->
+            <!-- <a href="{{url_for('weather')}}" class="submit">Submit</a> -->
+        </form>
+        <h1 class="common1">City Name : {{pencil}}</h1>
+        <h1 class="common2">Temperature : {{box}}</h1>
+        <h1 class="common3">Humidity : {{bag}}</h1>
+        <h1 class="common4">Wind Speed : {{pen}}</h1>
+
+        <div class="rightside">
+            <h1 class="common5">Sunrise : {{rise}}</h1>
+            <h1 class="common6">Sunset : {{set}}</h1>
+            <h1 class="common7">Pressure : {{press}}</h1>
+            <h1 class="common8">Clouds : {{clo}}</h1>
+
+        </div>
+
+
+
+
+
+
+    </section>
+</body>
+</html>

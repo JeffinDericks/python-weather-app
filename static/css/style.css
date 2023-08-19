@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+/* starts here  */
+
+.image{
+    position: relative;
+    width: 100%;
+}
+
+
+
+.text{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 6px 6px 5px black;
+}
+
+nav{
+    position: absolute;
+    top: 12.5%;
+    left: 30%;
+    word-spacing: 100px;
+}
+
+.home{
+    color: orange;
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 21px;
+}
+
+a:hover{
+    color: orange;
+}
+
+.fol{
+    position: absolute;
+    color: white;
+    top: 12%;
+    font-size: 25px;
+    left: 78%;
+}
+
+.fol:hover{
+    color: lightblue;
+}
+
+.para1{
+    position: absolute;
+    top: 27%;
+    left: 32%;
+    color: darksalmon;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+.shadow{
+    color: bisque;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px lightblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: whitesmoke;
+    border: 3px solid orange;
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 10px 25px;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.arrow{
+    font-size: 30px;
+    margin-left: 3px;
+    color: white;
+}
+
+/* second html  */
+.awesome1{
+    position: absolute;
+    top: 52%;
+    left: 38%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.city{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+    font-size: 20px;
+    padding: 3px;
+    background-color: white;
+}
+
+.btn1{
+    position: absolute;
+    top: 60%;
+    left: 52.5%;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 3px;
+    border-left: none;
+    color: white;
+    background-color: transparent;
+}
+
+.arr{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 15px;
+}
+
+.submit{
+    padding: 7.3px;
+    border: 2px solid  black;
+    font-weight: 100;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 60.2%;
+    right: 43.8%;
+}
+
+.submit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.common1{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+
+.common2{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+
+}
+
+.common3{
+    position: absolute;
+    top: 42%;
+    left: 5%;
+}
+
+.common4{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+}
+
+/* .common5{
+    position: absolute;
+    top: 32%;
+    right: 16%;
+    color: white;
+}
+
+.common6{
+    position: absolute;
+    top: 37%;
+    right: 16.3%;
+    color: white;
+}
+
+.common7{
+    position: absolute;
+    top: 42%;
+    right: 15%;
+    color: white;
+}
+
+.common8{
+    position: absolute;
+    top: 47%;
+    right: 16.2%;
+    color: white;
+} */
+
+.rightside{
+    text-align: inherit;
+    position: absolute;
+    top: 32%;
+    right: 8%;
+    color: white;
+}
